@@ -1,6 +1,6 @@
 React Native Checkout MercadoPago
 =============
-This package provides a bridge to trigger MercadoPago UI components (Android and iOS) from a react-native app.  
+This package provides a bridge to trigger MercadoPago UI components (Android and iOS) from a react-native app. For more info about the native MercadoPago components, checkout the official documentation: [Android](http://mercadopago.github.io/px-android/) and [iOS](http://mercadopago.github.io/px-ios/)
 
 ## Setup
 
