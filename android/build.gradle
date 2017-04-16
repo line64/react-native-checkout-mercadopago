@@ -19,5 +19,9 @@ android {
 dependencies {
     compile 'com.facebook.react:react-native:+'
     compile 'com.android.support:appcompat-v7:+'
-    compile ('com.mercadopago:sdk:2.3.1@aar') { transitive = true }
+    compile ('com.mercadopago:sdk:2.5.0@aar') {
+        transitive = true
+        exclude group: "com.squareup.okhttp3", module: 'okhttp-urlconnection'
+        exclude group: "com.squareup.okhttp3", module: 'okhttp'
+    }
 }
