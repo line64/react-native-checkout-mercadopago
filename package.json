@@ -1,6 +1,6 @@
 {
   "name": "react-native-checkout-mercadopago",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A react native bridge for MercadoPago checkout components, without using Cordova",
   "main": "index.js",
   "scripts": {
